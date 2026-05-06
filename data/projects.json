@@ -1,0 +1,169 @@
+[
+  {
+    "id": "pandanchain-landing",
+    "title": "PandanChain DMS Landing Page",
+    "description": "Designed and developed a marketing landing page for PandanChain, a Document Management System for Mapandan, Pangasinan. Iterated through major revisions to produce a polished final output.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "completionDate": "February 12, 2026",
+    "category": "Frontend",
+    "week": 1,
+    "featured": true,
+    "highlight": "First solo project — built a marketing landing page from scratch"
+  },
+  {
+    "id": "nodejs-exploration",
+    "title": "Node.js Learning & Web Apps",
+    "description": "Expanded backend knowledge through Node.js tutorials and hands-on development of small web applications. Studied architecture patterns and applied concepts through practice.",
+    "techStack": ["Node.js", "JavaScript"],
+    "completionDate": "February 23, 2026",
+    "category": "Research",
+    "week": 2,
+    "featured": false
+  },
+  {
+    "id": "sentiment-analysis-research",
+    "title": "Sentiment Analysis Implementation Plan",
+    "description": "Completed research and compiled an implementation plan for Sentiment Analysis covering methods, tools, and use cases applicable to local government data and community feedback.",
+    "techStack": ["Research", "NLP", "Node.js"],
+    "completionDate": "February 24, 2026",
+    "category": "Research",
+    "week": 2,
+    "featured": false
+  },
+  {
+    "id": "hack4mapandan-ppt",
+    "title": "Hack4Mapandan Presentation",
+    "description": "Completed the PowerPoint presentation for the Hack4Mapandan hackathon project, showcasing the team's solution concept and technical approach.",
+    "techStack": ["PowerPoint", "Research"],
+    "completionDate": "March 3, 2026",
+    "category": "Event",
+    "week": 3,
+    "featured": false
+  },
+  {
+    "id": "meditrack-web-frontend",
+    "title": "MediTrack Web Frontend & Firebase",
+    "description": "Revised and rebuilt the MediTrack frontend with Firebase database integration. Resolved critical issues causing data not to display correctly in the web system.",
+    "techStack": ["React", "Firebase", "Tailwind CSS"],
+    "completionDate": "March 9, 2026",
+    "category": "Frontend",
+    "week": 4,
+    "featured": true,
+    "highlight": "Resolved critical data-rendering bugs in production"
+  },
+  {
+    "id": "meditrack-mobile-flutter",
+    "title": "MediTrack Mobile App (Flutter)",
+    "description": "Developed the MediTrack mobile application using Flutter and integrated it with the existing web platform. Implemented Firebase backend connectivity for real-time data sync across platforms.",
+    "techStack": ["Flutter", "Dart", "Firebase"],
+    "completionDate": "March 12, 2026",
+    "category": "Mobile",
+    "week": 4,
+    "featured": true,
+    "highlight": "Built cross-platform mobile app integrated with web system"
+  },
+  {
+    "id": "meditrack-edit-profile",
+    "title": "MediTrack Edit Profile & Avatar Upload",
+    "description": "Implemented an Edit Profile feature allowing users to update personal information. Added avatar image upload capability for both mobile and web using Firebase Storage.",
+    "techStack": ["Flutter", "Firebase Storage", "React"],
+    "completionDate": "March 17, 2026",
+    "category": "Full Stack",
+    "week": 5,
+    "featured": false
+  },
+  {
+    "id": "meditrack-push-notifications",
+    "title": "MediTrack Push Notification System",
+    "description": "Integrated push notification alerts via Firebase Cloud Messaging to proactively remind users about medication schedules and important health activities.",
+    "techStack": ["Flutter", "Firebase Cloud Messaging", "Dart"],
+    "completionDate": "March 18, 2026",
+    "category": "Mobile",
+    "week": 5,
+    "featured": true,
+    "highlight": "Real-time push notifications for medication reminders"
+  },
+  {
+    "id": "meditrack-frontend-polish",
+    "title": "MediTrack Frontend Polish & Bugs",
+    "description": "Resolved multiple bugs across both MediTrack mobile and web platforms. Polished and improved the front-end design across both systems for a consistent and professional look.",
+    "techStack": ["Flutter", "React", "Firebase", "CSS"],
+    "completionDate": "March 27, 2026",
+    "category": "Full Stack",
+    "week": 6,
+    "featured": false
+  },
+  {
+    "id": "meditrack-h4m-finalization",
+    "title": "MediTrack H4M — Deployment",
+    "description": "Finalized MediTrack for Hack4Mapandan by fixing frontend and backend bugs in the deployed Vercel app, resolving deployment issues, and improving overall UI/UX for the competition.",
+    "techStack": ["Next.js", "Firebase", "Vercel", "Flutter"],
+    "completionDate": "April 14, 2026",
+    "category": "Full Stack",
+    "week": 8,
+    "featured": true,
+    "highlight": "Deployed to Vercel and submitted for Hack4Mapandan"
+  },
+  {
+    "id": "meditrack-bug-hunting",
+    "title": "MediTrack Comprehensive Bug Hunt",
+    "description": "Performed a full bug hunting session — testing core features, identifying UI and functional issues, debugging errors, and implementing initial fixes to improve overall app stability.",
+    "techStack": ["Flutter", "React", "Firebase", "QA"],
+    "completionDate": "April 22, 2026",
+    "category": "Full Stack",
+    "week": 9,
+    "featured": true,
+    "highlight": "Full audit across UI, functional, and integration layers"
+  },
+  {
+    "id": "meditrack-login-registration-ui",
+    "title": "MediTrack Auth UI Overhaul",
+    "description": "Refined and fixed the mobile login page layout and usability. Enhanced the multi-step registration page UI for better user interaction and flow.",
+    "techStack": ["Flutter", "Dart", "UI/UX"],
+    "completionDate": "April 21, 2026",
+    "category": "UI/UX",
+    "week": 9,
+    "featured": false
+  },
+  {
+    "id": "meditrack-dashboard-profile-ui",
+    "title": "MediTrack Dashboard, Profile & Messages",
+    "description": "Improved the mobile dashboard for smoother navigation and clearer data presentation. Refined the profile page UI and enhanced the Messages interface for layout consistency.",
+    "techStack": ["Flutter", "Dart", "UI/UX"],
+    "completionDate": "April 25, 2026",
+    "category": "UI/UX",
+    "week": 9,
+    "featured": false
+  },
+  {
+    "id": "meditrack-medication-history-ui",
+    "title": "MediTrack Medication & History UI",
+    "description": "Enhanced the Medication page UI for improved layout and readability. Improved the History page design for better organization and clarity of adherence records.",
+    "techStack": ["Flutter", "Dart", "UI/UX"],
+    "completionDate": "April 28, 2026",
+    "category": "UI/UX",
+    "week": 10,
+    "featured": false
+  },
+  {
+    "id": "meditrack-logdose-alerts-ui",
+    "title": "MediTrack Log Dose & Alerts UI",
+    "description": "Refined the Log Dose dashboard page to optimize usability and streamline input flow. Upgraded the Alerts page UI to enhance visibility, responsiveness, and overall user experience.",
+    "techStack": ["Flutter", "Dart", "UI/UX"],
+    "completionDate": "April 30, 2026",
+    "category": "UI/UX",
+    "week": 11,
+    "featured": false
+  },
+  {
+    "id": "portfolio-activity-log",
+    "title": "Professional Portfolio & Activity Log",
+    "description": "Developed this data-driven portfolio using Next.js App Router, TypeScript, and Tailwind CSS. Built a modular system that reads from local JSON and Markdown files for easy content updates without touching UI code.",
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "MDX"],
+    "completionDate": "May 2, 2026",
+    "category": "Full Stack",
+    "week": 11,
+    "featured": true,
+    "highlight": "The portfolio you're looking at right now!"
+  }
+]

@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0djzopw8bqid~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/0djzopw8bqid~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Final UI Refinements & Portfolio Launch | Jan-Jan Laguan"}],["$","meta","1",{"name":"description","content":"Polished the remaining MediTrack mobile pages and started building this Professional Portfolio and Activity Log."}],["$","meta","2",{"name":"keywords","content":"Jan-Jan Laguan,OJT,Makerspace Innovhub,MediTrack,Flutter,Next.js"}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"k6yJKg2nXF8QJwTLU9605"}
