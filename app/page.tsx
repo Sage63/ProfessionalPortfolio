@@ -33,14 +33,14 @@ export default function Home() {
   return (
     <div className="pt-[60px]">
       {/* ── HERO ── */}
-      <section className="relative min-h-[85vh] sm:min-h-[92vh] grid-bg flex flex-col justify-center overflow-hidden">
+      <section className="relative min-h-[85vh] sm:min-h-[92vh] grid-bg flex items-center justify-center overflow-hidden">
         {/* Decorative coral blob */}
         <div className="absolute top-10 sm:top-20 right-0 w-[250px] sm:w-[420px] h-[250px] sm:h-[420px] rounded-full bg-coral/5 blur-3xl pointer-events-none" />
         <div className="absolute -bottom-10 sm:bottom-10 -left-5 sm:left-10 w-[150px] sm:w-[200px] h-[150px] sm:h-[200px] rounded-full bg-gold/5 blur-2xl pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-5 sm:px-8 w-full">
+        <div className="max-w-6xl mx-auto px-5 sm:px-8 w-full text-center">
           {/* Status pill */}
-          <div className="anim-fade d1 inline-flex items-center gap-2.5 border border-border bg-surface px-3 py-1.5 rounded-sm mb-6 sm:mb-8">
+          <div className="anim-fade d1 inline-flex items-center gap-2.5 border border-border bg-surface px-3 py-1.5 rounded-sm mb-6 sm:mb-8 mx-auto">
             <span className="w-2 h-2 rounded-full bg-coral animate-pulse" />
             <span className="font-mono text-[11px] sm:text-xs text-muted tracking-widest">OJT IN PROGRESS · MAKERSPACE INNOVHUB · 2026</span>
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
           </h1>
 
           {/* Role + description row */}
-          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-4 sm:gap-16 anim-up d4">
+          <div className="mt-6 sm:mt-8 flex flex-col items-center sm:flex-row justify-center gap-4 sm:gap-16 anim-up d4">
             <div className="border-l-2 border-coral pl-3 sm:pl-4">
               <p className="font-mono text-[10px] sm:text-xs text-muted uppercase tracking-widest mb-1">Role</p>
               <p className="font-serif text-lg sm:text-xl text-ink italic">Front-End &amp; Mobile Developer</p>
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
           </div>
 
-          <p className="mt-6 sm:mt-8 text-muted max-w-xl leading-relaxed text-xs sm:text-sm anim-up d5">
+          <p className="mt-6 sm:mt-8 text-muted max-w-xl mx-auto leading-relaxed text-xs sm:text-sm anim-up d5">
             Built <span className="text-ink font-medium">MediTrack</span> — a full-stack medication adherence platform — from web frontend to Flutter mobile app, Firebase backend, and Vercel deployment. {total} documented activities across 11 OJT weeks.
           </p>
 

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Weekly Logs | Jan-Jan Laguan",
-  description: "11 weeks of OJT activity logs at Makerspace Innovhub.",
+  description: "12 weeks of OJT activity logs at Makerspace Innovhub.",
 };
 
 export default async function LogsPage() {

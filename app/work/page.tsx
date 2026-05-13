@@ -39,7 +39,7 @@ export default function WorkPage() {
         <div className="max-w-7xl mx-auto px-5 sm:px-8 py-8 sm:py-16">
           <p className="font-mono text-xs text-coral tracking-widest uppercase mb-3">Documentation</p>
           <h1 className="font-display text-[clamp(2.5rem,8vw,9rem)] leading-none text-ink">ALL WORK</h1>
-          <p className="text-muted text-xs sm:text-sm mt-3 sm:mt-4 font-mono">{allProjects.length} activities — 11 weeks — Makerspace Innovhub</p>
+          <p className="text-muted text-xs sm:text-sm mt-3 sm:mt-4 font-mono">{allProjects.length} activities — 12 weeks — Makerspace Innovhub</p>
         </div>
       </div>
 
