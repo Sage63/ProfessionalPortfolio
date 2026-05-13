@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getFeaturedProjects, getAllProjects } from "@/lib/projects";
+import { getAllLogSlugs } from "@/lib/logs";
 import ProjectCard from "@/components/molecules/ProjectCard";
 import MarqueeBanner from "@/components/molecules/MarqueeBanner";
 import SkillsGrid from "@/components/molecules/SkillsGrid";
@@ -29,6 +30,7 @@ const catColor: Record<string, string> = {
 export default function Home() {
   const featured = getFeaturedProjects();
   const total = getAllProjects().length;
+  const weeksCount = getAllLogSlugs().length;
 
   return (
     <div className="pt-[60px]">
@@ -70,7 +72,7 @@ export default function Home() {
           </div>
 
           <p className="mt-6 sm:mt-8 text-muted max-w-xl mx-auto leading-relaxed text-xs sm:text-sm anim-up d5">
-            Built <span className="text-ink font-medium">MediTrack</span> — a full-stack medication adherence platform — from web frontend to Flutter mobile app, Firebase backend, and Vercel deployment. {total} documented activities across 11 OJT weeks.
+            Built <span className="text-ink font-medium">MediTrack</span> — a full-stack medication adherence platform — from web frontend to Flutter mobile app, Firebase backend, and Vercel deployment. {total} documented activities across {weeksCount} OJT weeks.
           </p>
 
           {/* CTA row */}
@@ -88,7 +90,7 @@ export default function Home() {
         <div className="absolute bottom-10 right-8 hidden lg:flex flex-col items-center gap-2 anim-fade d8">
           <div className="w-px h-16 bg-border" />
           <div className="border border-border bg-surface p-4 text-center">
-            <p className="font-display text-5xl text-coral">11</p>
+            <p className="font-display text-5xl text-coral">{weeksCount}</p>
             <p className="font-mono text-[10px] text-muted tracking-widest mt-1">WEEKS</p>
           </div>
           <div className="border border-border bg-surface p-4 text-center">
@@ -106,7 +108,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-5 sm:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-border">
             {[
-              { n: "11", label: "Weeks Logged", sub: "Feb–May 2026" },
+              { n: `${weeksCount}`, label: "Weeks Logged", sub: "Feb–May 2026" },
               { n: `${total}+`, label: "Activities Done", sub: "Across all weeks" },
               { n: "500", label: "OJT Hours", sub: "Practicum target" },
               { n: "2", label: "Platforms", sub: "Web + Mobile" },
