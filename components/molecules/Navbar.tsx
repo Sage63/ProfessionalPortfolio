@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-bg/90 backdrop-blur-xl border-b border-border" : ""}`}>
-      <nav className="max-w-7xl mx-auto px-5 sm:px-8 h-[60px] flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-5 sm:px-8 h-[60px] flex items-center justify-between" aria-label="Main navigation">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 sm:gap-3 group flex-shrink-0">
           <div className="w-7 sm:w-8 h-7 sm:h-8 bg-coral rounded-sm flex items-center justify-center group-hover:rotate-12 transition-transform flex-shrink-0">
@@ -37,6 +37,7 @@ export default function Navbar() {
             const active = pathname === href;
             return (
               <Link key={href} href={href}
+                aria-current={active ? "page" : undefined}
                 className={`px-4 py-2 text-sm font-mono tracking-wide transition-all rounded-sm ${
                   active ? "text-coral border-b border-coral" : "text-muted hover:text-ink"
                 }`}>
@@ -44,14 +45,20 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <a href="https://github.com/Sage63" target="_blank" rel="noreferrer"
+          <a href="https://github.com/Sage63" target="_blank" rel="noopener noreferrer"
             className="ml-4 px-4 py-1.5 border border-coral text-coral text-xs font-mono rounded-sm hover:bg-coral hover:text-bg transition-all">
             GitHub ↗
           </a>
         </div>
 
         {/* Mobile burger */}
-        <button className="sm:hidden flex flex-col gap-1.5 p-2 -mr-2" onClick={() => setOpen(!open)}>
+        <button
+          className="sm:hidden flex flex-col gap-1.5 p-2 -mr-2"
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle navigation menu"
+          aria-controls="mobile-menu"
+          aria-expanded={open}
+        >
           <span className={`block w-5 h-px bg-ink transition-all ${open ? "rotate-45 translate-y-2" : ""}`} />
           <span className={`block w-5 h-px bg-ink transition-all ${open ? "opacity-0" : ""}`} />
           <span className={`block w-5 h-px bg-ink transition-all ${open ? "-rotate-45 -translate-y-2" : ""}`} />
@@ -60,14 +67,14 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="sm:hidden bg-bg border-b border-border px-5 pb-4 pt-2 flex flex-col gap-3">
+        <div id="mobile-menu" className="sm:hidden bg-bg border-b border-border px-5 pb-4 pt-2 flex flex-col gap-3">
           {links.map(({ href, label }) => (
             <Link key={href} href={href} onClick={() => setOpen(false)}
               className={`font-display text-2xl py-2 ${pathname === href ? "text-coral" : "text-ink hover:text-coral"} transition-colors`}>
               {label}
             </Link>
           ))}
-          <a href="https://github.com/Sage63" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}
+          <a href="https://github.com/Sage63" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}
             className="border border-coral text-coral text-xs font-mono py-2 px-3 rounded-sm hover:bg-coral hover:text-bg transition-all inline-flex items-center justify-center">
             GitHub ↗
           </a>
