@@ -44,7 +44,7 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <a href="https://github.com" target="_blank" rel="noreferrer"
+          <a href="https://github.com/Sage63" target="_blank" rel="noreferrer"
             className="ml-4 px-4 py-1.5 border border-coral text-coral text-xs font-mono rounded-sm hover:bg-coral hover:text-bg transition-all">
             GitHub ↗
           </a>
@@ -67,7 +67,7 @@ export default function Navbar() {
               {label}
             </Link>
           ))}
-          <a href="https://github.com" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}
+          <a href="https://github.com/Sage63" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}
             className="border border-coral text-coral text-xs font-mono py-2 px-3 rounded-sm hover:bg-coral hover:text-bg transition-all inline-flex items-center justify-center">
             GitHub ↗
           </a>
